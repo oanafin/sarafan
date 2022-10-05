@@ -17,6 +17,8 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
 	implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.0.RELEASE'
 	implementation 'org.springframework.session:spring-session-jdbc'
 	implementation 'org.postgresql:postgresql'
@@ -24,7 +26,6 @@ dependencies {
 	implementation 'javax.xml.bind:jaxb-api'
 	implementation 'com.sun.xml.bind:jaxb-core'
 	implementation 'com.sun.xml.bind:jaxb-impl'
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
