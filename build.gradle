@@ -23,6 +23,7 @@ dependencies {
 	implementation 'org.springframework.session:spring-session-jdbc'
 	implementation 'org.postgresql:postgresql'
 	compileOnly 'org.projectlombok:lombok:1.18.24'
+	implementation 'org.jsoup:jsoup:1.11.3'
 	annotationProcessor 'org.projectlombok:lombok:1.18.24'
 	implementation 'javax.xml.bind:jaxb-api'
 	implementation 'com.sun.xml.bind:jaxb-core'
