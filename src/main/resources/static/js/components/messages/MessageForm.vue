@@ -16,13 +16,14 @@
             data() {
                 return {
                     text: '',
-                    id: ''
+                    id: null
                 }
             },
             watch: {
                 messageAttr: function(newVal, oldVal) {
                     this.text = newVal.text
                     this.id = newVal.id
+                    console.log(this.id)
                 }
             },
             methods: {
@@ -38,7 +39,7 @@
                         this.addMessageAction(message)
                     }
                     this.text = ''
-                    this.id = ''
+                    this.id = null
                 }
             }
     }
